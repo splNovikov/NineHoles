@@ -18,7 +18,10 @@ namespace nineHoles
 		{
 			bundles.Add(new JsBundle("~/bundles/libs").Include(
 				"~/Scripts/libs/angular/angular.js",
-				"~/Scripts/libs/angular-router/angular-ui-router.js"
+				"~/Scripts/libs/angular-router/angular-ui-router.js",
+
+				"~/Scripts/libs/jquery/jquery-{version}.js",
+				"~/Scripts/libs/bootstrap/bootstrap.min.js"
 				));
 
 			bundles.Add(new StyleBundle("~/Content/css").Include(
