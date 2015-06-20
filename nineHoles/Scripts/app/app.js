@@ -8,5 +8,26 @@
 			'ui.router'
 		])
 
+		.config([
+			'$stateProvider',
+			'$urlRouterProvider',
+
+			function (
+				$stateProvider,
+				$urlRouterProvider) {
+
+				var partialsPath = '/partials/';
+
+				$urlRouterProvider.otherwise('/');
+
+				$stateProvider
+					// Main page FOR USER APPLICATION
+					.state('index', {
+						url: '/',
+						templateUrl: partialsPath + 'main/index',
+						controller: 'MainController as mainCtrl'
+					})
+
+			}])
 
 })();
