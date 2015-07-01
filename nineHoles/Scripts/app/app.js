@@ -5,7 +5,9 @@
 
 	angular
 		.module('nineHoles', [
-			'ui.router'
+			'ui.router',
+
+			'main'
 		])
 
 		.config([

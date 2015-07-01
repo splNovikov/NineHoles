@@ -7,7 +7,7 @@ namespace nineHoles
 	{
 		public static void RegisterBundles(BundleCollection bundles)
 		{
-			BundleTable.EnableOptimizations = true;
+			BundleTable.EnableOptimizations = false;
 
 			RegisterThirdPartyLibs(bundles);
 
@@ -32,6 +32,11 @@ namespace nineHoles
 		private static void RegisterUserScriptBundle(BundleCollection bundles)
 		{
 			bundles.Add(new JsBundle("~/bundles/app").Include(
+
+				/* Main */
+				"~/Scripts/app/main/main.module.js",
+				"~/Scripts/app/main/main.controller.js",
+
 				"~/Scripts/app/app.js",
 				"~/Scripts/app/app.layout.controller.js"));
 

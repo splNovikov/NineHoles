@@ -1,1 +1,12 @@
-﻿
+﻿body {
+  background-color: #333333;
+}
+body .main {
+  position: absolute;
+  top: 100px;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  background-color: darkgoldenrod;
+}
+/*# sourceMappingURL=site.css.map */

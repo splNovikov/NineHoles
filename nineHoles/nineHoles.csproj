@@ -157,6 +157,12 @@
     <Compile Include="Utils\LessBundle.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\appStyles\basics\colors.css">
+      <DependentUpon>colors.less</DependentUpon>
+    </Content>
+    <Content Include="Content\appStyles\basics\colors.min.css">
+      <DependentUpon>colors.css</DependentUpon>
+    </Content>
     <Content Include="Content\appStyles\site.css">
       <DependentUpon>site.less</DependentUpon>
     </Content>
@@ -178,7 +184,13 @@
     <Content Include="Content\appStyles\site.css.map">
       <DependentUpon>site.css</DependentUpon>
     </Content>
+    <Content Include="Content\appStyles\basics\colors.less" />
+    <Content Include="Content\appStyles\basics\colors.css.map">
+      <DependentUpon>colors.css</DependentUpon>
+    </Content>
     <None Include="Scripts\libs\jquery\jquery-1.9.0.intellisense.js" />
+    <Content Include="Scripts\app\main\main.controller.js" />
+    <Content Include="Scripts\app\main\main.module.js" />
     <Content Include="Scripts\libs\bootstrap\bootstrap.js" />
     <Content Include="Scripts\libs\bootstrap\bootstrap.min.js" />
     <Content Include="Scripts\libs\jquery\jquery-1.9.0.js" />
@@ -971,6 +983,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\images\app\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
