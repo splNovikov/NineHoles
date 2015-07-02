@@ -1,5 +1,6 @@
 ﻿body {
   background-color: #333333;
+  min-height: 400px;
 }
 body .main {
   position: absolute;
@@ -7,6 +8,49 @@ body .main {
   bottom: 100px;
   left: 0;
   right: 0;
-  background-color: darkgoldenrod;
+  background-color: darkseagreen;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  /* extra */
+  /* lg */
+  /* md */
+  /* sm */
+  /* xs */
+  /* XS Portrait */
+}
+@media (min-width: 1400px) {
+  body .main {
+    background-image: url('../images/app/bg-big.jpg');
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  body .main {
+    background-image: url('../images/app/bg-big.jpg');
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  body .main {
+    background-image: url('../images/app/bg-md.jpg');
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  body .main {
+    background-image: url('../images/app/bg-sm.jpg');
+    background-size: cover;
+  }
+}
+@media (max-width: 767px) {
+  body .main {
+    background-image: url('../images/app/bg-xs.jpg');
+    background-size: cover;
+  }
+}
+@media (max-width: 479px) {
+  body .main {
+    background-image: url('../images/app/bg-xs.jpg');
+    position: static;
+    height: 240px;
+  }
 }
 /*# sourceMappingURL=site.css.map */
