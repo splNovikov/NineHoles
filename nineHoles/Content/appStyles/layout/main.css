@@ -1,11 +1,4 @@
-﻿.primary-header {
-  color: #c5fc3b;
-}
-body {
-  background-color: #333333;
-  min-height: 400px;
-}
-.main {
+﻿.main {
   position: absolute;
   top: 100px;
   bottom: 100px;
@@ -56,4 +49,4 @@ body {
     height: 240px;
   }
 }
-/*# sourceMappingURL=site.css.map */
+/*# sourceMappingURL=main.css.map */

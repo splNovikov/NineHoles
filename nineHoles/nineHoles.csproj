@@ -163,6 +163,24 @@
     <Content Include="Content\appStyles\basics\colors.min.css">
       <DependentUpon>colors.css</DependentUpon>
     </Content>
+    <Content Include="Content\appStyles\layout\body.css">
+      <DependentUpon>body.less</DependentUpon>
+    </Content>
+    <Content Include="Content\appStyles\layout\body.min.css">
+      <DependentUpon>body.css</DependentUpon>
+    </Content>
+    <Content Include="Content\appStyles\layout\header.css">
+      <DependentUpon>header.less</DependentUpon>
+    </Content>
+    <Content Include="Content\appStyles\layout\header.min.css">
+      <DependentUpon>header.css</DependentUpon>
+    </Content>
+    <Content Include="Content\appStyles\layout\main.css">
+      <DependentUpon>main.less</DependentUpon>
+    </Content>
+    <Content Include="Content\appStyles\layout\main.min.css">
+      <DependentUpon>main.css</DependentUpon>
+    </Content>
     <Content Include="Content\appStyles\site.css">
       <DependentUpon>site.less</DependentUpon>
     </Content>
@@ -191,6 +209,18 @@
     <Content Include="Content\appStyles\basics\colors.less" />
     <Content Include="Content\appStyles\basics\colors.css.map">
       <DependentUpon>colors.css</DependentUpon>
+    </Content>
+    <Content Include="Content\appStyles\layout\header.less" />
+    <Content Include="Content\appStyles\layout\header.css.map">
+      <DependentUpon>header.css</DependentUpon>
+    </Content>
+    <Content Include="Content\appStyles\layout\body.less" />
+    <Content Include="Content\appStyles\layout\body.css.map">
+      <DependentUpon>body.css</DependentUpon>
+    </Content>
+    <Content Include="Content\appStyles\layout\main.less" />
+    <Content Include="Content\appStyles\layout\main.css.map">
+      <DependentUpon>main.css</DependentUpon>
     </Content>
     <None Include="Scripts\libs\jquery\jquery-1.9.0.intellisense.js" />
     <Content Include="Scripts\app\main\main.controller.js" />
