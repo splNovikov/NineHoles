@@ -1,9 +1,155 @@
 ﻿.primary-header {
+  position: absolute;
+  height: 100px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.primary-header .left-side,
+.primary-header .right-side {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+.primary-header .left-side {
   color: #c5fc3b;
+  padding-left: 40px;
+  padding-top: 10px;
+  /* extra */
+  /* lg */
+  /* md */
+  /* sm */
+  /* xs */
+  /* XS Portrait */
+}
+.primary-header .left-side .ls-sm-title {
+  font-size: 20pt;
+  line-height: 20pt;
+}
+.primary-header .left-side .ls-bg-title {
+  font-size: 40pt;
+  line-height: 40pt;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .primary-header .left-side .ls-sm-title {
+    font-size: 15pt;
+    line-height: 15pt;
+  }
+  .primary-header .left-side .ls-bg-title {
+    font-size: 35pt;
+    line-height: 35pt;
+  }
+}
+@media (max-width: 767px) {
+  .primary-header .left-side .ls-sm-title {
+    font-size: 15pt;
+    line-height: 15pt;
+  }
+  .primary-header .left-side .ls-bg-title {
+    font-size: 35pt;
+    line-height: 35pt;
+  }
+}
+@media (max-width: 479px) {
+  .primary-header .left-side .ls-sm-title {
+    font-size: 15pt;
+    line-height: 15pt;
+  }
+  .primary-header .left-side .ls-bg-title {
+    font-size: 25pt;
+    line-height: 25pt;
+  }
+}
+.primary-header .right-side {
+  margin-left: -4px;
+  position: relative;
+  padding: 10px 40px 0 0;
+  text-align: right;
+  line-height: 20pt;
+  /* extra */
+  /* lg */
+  /* md */
+  /* sm */
+  /* xs */
+  /* XS Portrait */
+}
+.primary-header .right-side .rs-sm-title {
+  font-size: 20pt;
+  line-height: 20pt;
+}
+.primary-header .right-side .rs-bg-title {
+  font-size: 40pt;
+  line-height: 40pt;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .primary-header .right-side .rs-sm-title {
+    font-size: 15pt;
+    line-height: 15pt;
+  }
+  .primary-header .right-side .rs-bg-title {
+    font-size: 35pt;
+    line-height: 35pt;
+  }
+}
+@media (max-width: 767px) {
+  .primary-header .right-side .rs-sm-title {
+    font-size: 15pt;
+    line-height: 15pt;
+  }
+  .primary-header .right-side .rs-bg-title {
+    font-size: 35pt;
+    line-height: 35pt;
+  }
+}
+@media (max-width: 479px) {
+  .primary-header .right-side .rs-sm-title {
+    font-size: 15pt;
+    line-height: 15pt;
+  }
+  .primary-header .right-side .rs-bg-title {
+    font-size: 25pt;
+    line-height: 25pt;
+  }
 }
 body {
   background-color: #333333;
-  min-height: 400px;
+  color: #ffffff;
+  /* extra */
+  /* lg */
+  /* md */
+  /* sm */
+  /* xs */
+  /* XS Portrait */
+}
+@media (min-width: 1400px) {
+  body {
+    min-height: 700px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  body {
+    min-height: 600px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    min-height: 500px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    min-height: 400px;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    min-height: 400px;
+  }
+}
+@media (max-width: 479px) {
+  body {
+    min-height: initial;
+  }
 }
 .main {
   position: absolute;
@@ -11,9 +157,8 @@ body {
   bottom: 100px;
   left: 0;
   right: 0;
-  background-color: darkseagreen;
   background-repeat: no-repeat;
-  background-size: 100%;
+  /*background-size: 100%;*/
   background-position: center;
   /* extra */
   /* lg */
@@ -25,32 +170,38 @@ body {
 @media (min-width: 1400px) {
   .main {
     background-image: url('/Content/images/app/bg-big.jpg');
+    min-height: 500px;
   }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
   .main {
     background-image: url('/Content/images/app/bg-big.jpg');
+    min-height: 400px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .main {
     background-image: url('/Content/images/app/bg-md.jpg');
+    min-height: 300px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .main {
     background-image: url('/Content/images/app/bg-sm.jpg');
     background-size: cover;
+    min-height: 200px;
   }
 }
 @media (max-width: 767px) {
   .main {
     background-image: url('/Content/images/app/bg-xs.jpg');
     background-size: cover;
+    min-height: 200px;
   }
 }
 @media (max-width: 479px) {
   .main {
+    top: 0;
     background-image: url('/Content/images/app/bg-xs.jpg');
     position: static;
     height: 240px;

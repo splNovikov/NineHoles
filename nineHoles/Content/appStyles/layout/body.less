@@ -1,6 +1,32 @@
-﻿@import "../basics/colors";
+﻿@import "../basics/colors.less";
+@import "layout.constants.less";
 
 body {
 	background-color: @dark-gray;
-	min-height: 400px;
+	color: @white;
+
+	/* extra */
+	@media (min-width: 1400px) {
+		min-height: @body-extra-min-height;
+	}
+	/* lg */
+	@media (min-width: 1200px) and (max-width: 1399px) {
+		min-height: @body-lg-min-height;
+	}
+	/* md */
+	@media (min-width: 992px) and (max-width: 1199px) {
+		min-height: @body-md-min-height;
+	}
+	/* sm */
+	@media (min-width: 768px) and (max-width: 991px) {
+		min-height: @body-sm-min-height;
+	}
+	/* xs */
+	@media (max-width: 767px) {
+		min-height: @body-xs-min-height;
+	}
+	/* XS Portrait */
+	@media (max-width: 479px) {
+		min-height: initial;
+	}
 }

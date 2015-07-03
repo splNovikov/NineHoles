@@ -1,5 +1,41 @@
 ﻿body {
   background-color: #333333;
-  min-height: 400px;
+  color: #ffffff;
+  /* extra */
+  /* lg */
+  /* md */
+  /* sm */
+  /* xs */
+  /* XS Portrait */
+}
+@media (min-width: 1400px) {
+  body {
+    min-height: 700px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  body {
+    min-height: 600px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    min-height: 500px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    min-height: 400px;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    min-height: 400px;
+  }
+}
+@media (max-width: 479px) {
+  body {
+    min-height: initial;
+  }
 }
 /*# sourceMappingURL=body.css.map */
