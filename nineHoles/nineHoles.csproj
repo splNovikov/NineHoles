@@ -232,6 +232,8 @@
     <Content Include="Content\appStyles\layout\layout.constants.css.map">
       <DependentUpon>layout.constants.css</DependentUpon>
     </Content>
+    <Content Include="Content\fonts\Geoumetric706.otf" />
+    <Content Include="Content\fonts\NautilusPompilius.otf" />
     <None Include="Scripts\libs\jquery\jquery-1.9.0.intellisense.js" />
     <Content Include="Scripts\app\main\main.controller.js" />
     <Content Include="Scripts\app\main\main.module.js" />

@@ -9,7 +9,7 @@
 	right: 0;
 
 	background-repeat: no-repeat;
-	/*background-size: 100%;*/
+	background-size: 100%;
 	background-position: center;
 	/* extra */
 	@media (min-width: 1400px) {
@@ -40,9 +40,9 @@
 	}
 	/* XS Portrait */
 	@media (max-width: 479px) {
-		top: 0;
+		top: @main-margin-top-xs;
+		bottom: auto;
 		background-image: url('/Content/images/app/bg-xs.jpg');
-		position: static;
 		height: 240px;
 	}
 }

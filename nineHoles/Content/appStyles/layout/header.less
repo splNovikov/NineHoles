@@ -65,14 +65,16 @@
 		}
 		/* XS Portrait */
 		@media (max-width: 479px) {
+			padding-top: 6px;
+			padding-left: 10px;
+
 			.ls-sm-title {
-				font-size: 15pt;
-				line-height: 15pt;
+				display: none;
 			}
 
 			.ls-bg-title {
-				font-size: 25pt;
-				line-height: 25pt;
+				font-size: 20pt;
+				line-height: 20pt;
 			}
 		}
 	}
@@ -84,14 +86,19 @@
 		text-align: right;
 		line-height: 20pt;
 
+		.rs-sm-title,
+		.rs-bg-title {
+			display: block;
+		}
+
 		.rs-sm-title {
 			font-size: 20pt;
 			line-height: 20pt;
 		}
 
 		.rs-bg-title {
-			font-size: 40pt;
-			line-height: 40pt;
+			font-size: 44pt;
+			line-height: 44pt;
 		}
 		/* extra */
 		@media (min-width: 1400px) {
@@ -108,11 +115,6 @@
 				font-size: 15pt;
 				line-height: 15pt;
 			}
-
-			.rs-bg-title {
-				font-size: 35pt;
-				line-height: 35pt;
-			}
 		}
 		/* xs */
 		@media (max-width: 767px) {
@@ -120,22 +122,25 @@
 				font-size: 15pt;
 				line-height: 15pt;
 			}
-
-			.rs-bg-title {
-				font-size: 35pt;
-				line-height: 35pt;
-			}
 		}
 		/* XS Portrait */
 		@media (max-width: 479px) {
+			padding: 0 10px 0 0;
+
+			.rs-sm-title,
+			.rs-bg-title {
+				display: inline-block;
+				vertical-align: top;
+			}
+
 			.rs-sm-title {
-				font-size: 15pt;
-				line-height: 15pt;
+				display: none;
 			}
 
 			.rs-bg-title {
-				font-size: 25pt;
-				line-height: 25pt;
+				font-size: 15pt;
+				line-height: 15pt;
+				margin: 10px 0 0 15px;
 			}
 		}
 	}
