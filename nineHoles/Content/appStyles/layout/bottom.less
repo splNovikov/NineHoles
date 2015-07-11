@@ -28,9 +28,21 @@
 			color: @dark-gray;
 			text-align: center;
 			position: relative;
+			/* XS Portrait */
+			@media (max-width: 479px) {
+				@nav-tem-xsP-diam: 60px;
+				width: @nav-tem-xsP-diam;
+				height: @nav-tem-xsP-diam;
+				border-radius: @nav-tem-xsP-diam;
+				font-size: 8pt;
+			}
 
 			&.one-word {
 				padding-top: 23px;
+				/* XS Portrait */
+				@media (max-width: 479px) {
+					padding-top: 18px;
+				}
 			}
 
 			&.two-words {

@@ -207,9 +207,24 @@ body {
   color: #333333;
   text-align: center;
   position: relative;
+  /* XS Portrait */
+}
+@media (max-width: 479px) {
+  .primary-bottom .nav-panel .nav-item {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    font-size: 8pt;
+  }
 }
 .primary-bottom .nav-panel .nav-item.one-word {
   padding-top: 23px;
+  /* XS Portrait */
+}
+@media (max-width: 479px) {
+  .primary-bottom .nav-panel .nav-item.one-word {
+    padding-top: 18px;
+  }
 }
 .primary-bottom .nav-panel .nav-item.two-words {
   padding-top: 10px;
