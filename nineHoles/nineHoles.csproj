@@ -187,6 +187,12 @@
     <Content Include="Content\appStyles\layout\main.min.css">
       <DependentUpon>main.css</DependentUpon>
     </Content>
+    <Content Include="Content\appStyles\main\main.index.css">
+      <DependentUpon>main.index.less</DependentUpon>
+    </Content>
+    <Content Include="Content\appStyles\main\main.index.min.css">
+      <DependentUpon>main.index.css</DependentUpon>
+    </Content>
     <Content Include="Content\appStyles\site.css">
       <DependentUpon>site.less</DependentUpon>
     </Content>
@@ -234,6 +240,10 @@
     </Content>
     <Content Include="Content\fonts\Geoumetric706.otf" />
     <Content Include="Content\fonts\NautilusPompilius.otf" />
+    <Content Include="Content\appStyles\main\main.index.less" />
+    <Content Include="Content\appStyles\main\main.index.css.map">
+      <DependentUpon>main.index.css</DependentUpon>
+    </Content>
     <None Include="Scripts\libs\jquery\jquery-1.9.0.intellisense.js" />
     <Content Include="Scripts\app\main\main.controller.js" />
     <Content Include="Scripts\app\main\main.module.js" />

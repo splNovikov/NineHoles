@@ -1,0 +1,82 @@
+﻿@import "../basics/colors.less";
+
+.start-page {
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+	.block-content {
+		margin: 0 auto;
+		width: 50%;
+		height: 70%;
+		border-top: 2px solid @dark-gray;
+		border-bottom: 2px solid @dark-gray;
+		display: flex;
+		align-items: center;
+
+		.text-content {
+			margin: 0 auto;
+
+			.item1,
+			.item2 {
+				text-align: center;
+				text-transform: uppercase;
+			}
+
+			.item1 {
+				font-size: 40pt;
+			}
+
+			.item2 {
+				color: @dark-gray;
+				font-size: 34pt;
+			}
+			/* extra */
+			@media (min-width: 1400px) {
+				.item1 {
+					font-size: 70pt;
+				}
+
+				.item2 {
+					font-size: 64pt;
+				}
+			}
+			/* lg */
+			@media (min-width: 1200px) and (max-width: 1399px) {
+			}
+			/* md */
+			@media (min-width: 992px) and (max-width: 1199px) {
+			}
+			/* sm */
+			@media (min-width: 768px) and (max-width: 991px) {
+				.item1 {
+					font-size: 30pt;
+				}
+
+				.item2 {
+					font-size: 24pt;
+				}
+			}
+			/* xs */
+			@media (max-width: 767px) {
+				.item1 {
+					font-size: 26pt;
+				}
+
+				.item2 {
+					font-size: 18pt;
+				}
+			}
+			/* XS Portrait */
+			@media (max-width: 479px) {
+				.item1 {
+					font-size: 16pt;
+				}
+
+				.item2 {
+					font-size: 14pt;
+				}
+			}
+		}
+	}
+}

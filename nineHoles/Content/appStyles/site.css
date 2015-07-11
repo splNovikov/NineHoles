@@ -198,6 +198,9 @@ body {
   /* xs */
   /* XS Portrait */
 }
+.main .main-view {
+  height: 100%;
+}
 @media (min-width: 1400px) {
   .main {
     background-image: url('/Content/images/app/bg-big.jpg');
@@ -235,7 +238,74 @@ body {
     top: 40px;
     bottom: auto;
     background-image: url('/Content/images/app/bg-xs.jpg');
-    height: 480px;
+    height: 440px;
+  }
+}
+.start-page {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.start-page .block-content {
+  margin: 0 auto;
+  width: 50%;
+  height: 70%;
+  border-top: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+  display: flex;
+  align-items: center;
+}
+.start-page .block-content .text-content {
+  margin: 0 auto;
+  /* extra */
+  /* lg */
+  /* md */
+  /* sm */
+  /* xs */
+  /* XS Portrait */
+}
+.start-page .block-content .text-content .item1,
+.start-page .block-content .text-content .item2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.start-page .block-content .text-content .item1 {
+  font-size: 40pt;
+}
+.start-page .block-content .text-content .item2 {
+  color: #333333;
+  font-size: 34pt;
+}
+@media (min-width: 1400px) {
+  .start-page .block-content .text-content .item1 {
+    font-size: 70pt;
+  }
+  .start-page .block-content .text-content .item2 {
+    font-size: 64pt;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .start-page .block-content .text-content .item1 {
+    font-size: 30pt;
+  }
+  .start-page .block-content .text-content .item2 {
+    font-size: 24pt;
+  }
+}
+@media (max-width: 767px) {
+  .start-page .block-content .text-content .item1 {
+    font-size: 26pt;
+  }
+  .start-page .block-content .text-content .item2 {
+    font-size: 18pt;
+  }
+}
+@media (max-width: 479px) {
+  .start-page .block-content .text-content .item1 {
+    font-size: 16pt;
+  }
+  .start-page .block-content .text-content .item2 {
+    font-size: 14pt;
   }
 }
 /*# sourceMappingURL=site.css.map */
