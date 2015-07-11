@@ -7,7 +7,7 @@ namespace nineHoles
 	{
 		public static void RegisterBundles(BundleCollection bundles)
 		{
-			BundleTable.EnableOptimizations = false;
+			BundleTable.EnableOptimizations = true;
 
 			RegisterThirdPartyLibs(bundles);
 
