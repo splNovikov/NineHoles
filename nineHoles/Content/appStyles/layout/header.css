@@ -22,6 +22,10 @@
   /* xs */
   /* XS Portrait */
 }
+.primary-header .left-side .ls-sm-title,
+.primary-header .left-side .ls-bg-title {
+  display: block;
+}
 .primary-header .left-side .ls-sm-title {
   font-size: 20pt;
   line-height: 20pt;
@@ -42,8 +46,8 @@
 }
 @media (max-width: 767px) {
   .primary-header .left-side .ls-sm-title {
-    font-size: 15pt;
-    line-height: 15pt;
+    font-size: 12pt;
+    line-height: 12pt;
   }
   .primary-header .left-side .ls-bg-title {
     font-size: 35pt;
@@ -52,15 +56,21 @@
 }
 @media (max-width: 479px) {
   .primary-header .left-side {
-    padding-top: 6px;
+    padding-top: 4px;
     padding-left: 10px;
   }
+  .primary-header .left-side .ls-sm-title,
+  .primary-header .left-side .ls-bg-title {
+    display: inline-block;
+    vertical-align: top;
+  }
   .primary-header .left-side .ls-sm-title {
-    display: none;
+    font-size: 8pt;
+    line-height: 8pt;
   }
   .primary-header .left-side .ls-bg-title {
-    font-size: 20pt;
-    line-height: 20pt;
+    font-size: 14pt;
+    line-height: 14pt;
   }
 }
 .primary-header .right-side {

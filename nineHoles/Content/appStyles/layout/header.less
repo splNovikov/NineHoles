@@ -21,6 +21,11 @@
 		padding-left: 40px;
 		padding-top: 10px;
 
+		.ls-sm-title,
+		.ls-bg-title {
+			display: block;
+		}
+
 		.ls-sm-title {
 			font-size: 20pt;
 			line-height: 20pt;
@@ -54,8 +59,8 @@
 		/* xs */
 		@media (max-width: 767px) {
 			.ls-sm-title {
-				font-size: 15pt;
-				line-height: 15pt;
+				font-size: 12pt;
+				line-height: 12pt;
 			}
 
 			.ls-bg-title {
@@ -65,16 +70,23 @@
 		}
 		/* XS Portrait */
 		@media (max-width: 479px) {
-			padding-top: 6px;
+			padding-top: 4px;
 			padding-left: 10px;
 
+			.ls-sm-title,
+			.ls-bg-title {
+				display: inline-block;
+				vertical-align: top;
+			}
+
 			.ls-sm-title {
-				display: none;
+				font-size: 8pt;
+				line-height: 8pt;
 			}
 
 			.ls-bg-title {
-				font-size: 20pt;
-				line-height: 20pt;
+				font-size: 14pt;
+				line-height: 14pt;
 			}
 		}
 	}
