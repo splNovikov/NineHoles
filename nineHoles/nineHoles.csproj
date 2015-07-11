@@ -169,6 +169,12 @@
     <Content Include="Content\appStyles\layout\body.min.css">
       <DependentUpon>body.css</DependentUpon>
     </Content>
+    <Content Include="Content\appStyles\layout\bottom.css">
+      <DependentUpon>bottom.less</DependentUpon>
+    </Content>
+    <Content Include="Content\appStyles\layout\bottom.min.css">
+      <DependentUpon>bottom.css</DependentUpon>
+    </Content>
     <Content Include="Content\appStyles\layout\header.css">
       <DependentUpon>header.less</DependentUpon>
     </Content>
@@ -243,6 +249,10 @@
     <Content Include="Content\appStyles\main\main.index.less" />
     <Content Include="Content\appStyles\main\main.index.css.map">
       <DependentUpon>main.index.css</DependentUpon>
+    </Content>
+    <Content Include="Content\appStyles\layout\bottom.less" />
+    <Content Include="Content\appStyles\layout\bottom.css.map">
+      <DependentUpon>bottom.css</DependentUpon>
     </Content>
     <None Include="Scripts\libs\jquery\jquery-1.9.0.intellisense.js" />
     <Content Include="Scripts\app\main\main.controller.js" />
