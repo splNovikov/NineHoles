@@ -10,8 +10,12 @@
 	z-index: 10;
 
 	.nav-panel {
-		text-align: right;
+		text-align: center;
 		padding: 10px 40px 0 0;
+
+		@media (max-width: 479px) {
+				padding: 5px 5px 0 0;
+			}
 
 		@nav-tem-diameter: 80px;
 
@@ -31,6 +35,7 @@
 			/* XS Portrait */
 			@media (max-width: 479px) {
 				@nav-tem-xsP-diam: 60px;
+				margin-left: 1px;
 				width: @nav-tem-xsP-diam;
 				height: @nav-tem-xsP-diam;
 				border-radius: @nav-tem-xsP-diam;

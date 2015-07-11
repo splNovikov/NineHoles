@@ -7,8 +7,13 @@
   z-index: 10;
 }
 .primary-bottom .nav-panel {
-  text-align: right;
+  text-align: center;
   padding: 10px 40px 0 0;
+}
+@media (max-width: 479px) {
+  .primary-bottom .nav-panel {
+    padding: 5px 5px 0 0;
+  }
 }
 .primary-bottom .nav-panel .nav-item {
   vertical-align: top;
@@ -27,6 +32,7 @@
 }
 @media (max-width: 479px) {
   .primary-bottom .nav-panel .nav-item {
+    margin-left: 1px;
     width: 60px;
     height: 60px;
     border-radius: 60px;
