@@ -1046,6 +1046,10 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Scripts\libs\jquery\jquery-1.9.0.min.map" />
     <Content Include="Views\Main\_Index.cshtml" />
+    <Content Include="Views\Main\_Places.cshtml" />
+    <Content Include="Views\Main\_Services.cshtml" />
+    <Content Include="Views\Main\_Gallery.cshtml" />
+    <Content Include="Views\Main\_Discounts.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

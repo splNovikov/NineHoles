@@ -30,6 +30,26 @@
 						controller: 'MainController as mainCtrl'
 					})
 
+					.state('places', {
+						url: '/places',
+						templateUrl: partialsPath + 'main/places'
+					})
+
+					.state('services', {
+						url: '/services',
+						templateUrl: partialsPath + 'main/services'
+					})
+
+					.state('gallery', {
+						url: '/gallery',
+						templateUrl: partialsPath + 'main/gallery'
+					})
+
+					.state('discounts', {
+						url: '/discounts',
+						templateUrl: partialsPath + 'main/discounts'
+					})
+
 			}])
 
 })();
