@@ -172,6 +172,12 @@ body {
   right: 0;
   bottom: 0;
   z-index: 10;
+  /* xs */
+}
+@media (max-width: 767px) {
+  .primary-bottom {
+    height: 80px;
+  }
 }
 .primary-bottom .nav-panel {
   text-align: right;
@@ -299,7 +305,7 @@ body {
   .main {
     background-image: url('/Content/images/app/bg-xs.jpg');
     top: 40px;
-    bottom: 40px;
+    bottom: 80px;
     background-size: cover;
     min-height: 300px;
   }
@@ -307,7 +313,7 @@ body {
 @media (max-width: 479px) {
   .main {
     top: 40px;
-    bottom: 40px;
+    bottom: 80px;
     background-image: url('/Content/images/app/bg-xs.jpg');
     height: 440px;
   }

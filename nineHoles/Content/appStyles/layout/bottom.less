@@ -7,6 +7,10 @@
 	right: 0;
 	bottom: 0;
 	z-index: 10;
+	/* xs */
+	@media (max-width: 767px) {
+		height: @main-margin-bottom-xs;
+	}
 
 	.nav-panel {
 		text-align: right;
@@ -36,7 +40,6 @@
 			&:active {
 				background-color: @salad-green;
 			}
-
 			/* xs */
 			/* XS Portrait */
 			@media (max-width: 767px) {

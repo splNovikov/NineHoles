@@ -46,7 +46,7 @@
   .main {
     background-image: url('/Content/images/app/bg-xs.jpg');
     top: 40px;
-    bottom: 40px;
+    bottom: 80px;
     background-size: cover;
     min-height: 300px;
   }
@@ -54,7 +54,7 @@
 @media (max-width: 479px) {
   .main {
     top: 40px;
-    bottom: 40px;
+    bottom: 80px;
     background-image: url('/Content/images/app/bg-xs.jpg');
     height: 440px;
   }
