@@ -11,6 +11,12 @@
   border-bottom: 2px solid #333333;
   display: flex;
   align-items: center;
+  /* XS Portrait */
+}
+@media (max-width: 479px) {
+  .start-page .block-content {
+    height: 40%;
+  }
 }
 .start-page .block-content .text-content {
   margin: 0 auto;
