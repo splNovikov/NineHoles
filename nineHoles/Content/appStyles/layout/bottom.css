@@ -28,9 +28,13 @@
   color: #333333;
   text-align: center;
   position: relative;
+  /* xs */
   /* XS Portrait */
 }
-@media (max-width: 479px) {
+.primary-bottom .nav-panel .nav-item:active {
+  background-color: #c5fc3b;
+}
+@media (max-width: 767px) {
   .primary-bottom .nav-panel .nav-item {
     margin-left: 1px;
     width: 60px;
@@ -41,15 +45,23 @@
 }
 .primary-bottom .nav-panel .nav-item.one-word {
   padding-top: 23px;
+  /* xs */
   /* XS Portrait */
 }
-@media (max-width: 479px) {
+@media (max-width: 767px) {
   .primary-bottom .nav-panel .nav-item.one-word {
     padding-top: 19px;
   }
 }
 .primary-bottom .nav-panel .nav-item.two-words {
   padding-top: 12px;
+  /* xs */
+  /* XS Portrait */
+}
+@media (max-width: 767px) {
+  .primary-bottom .nav-panel .nav-item.two-words {
+    padding-top: 10px;
+  }
 }
 .primary-bottom .nav-panel .nav-item:after {
   border-radius: 80px;

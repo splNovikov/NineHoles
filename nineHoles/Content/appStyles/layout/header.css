@@ -45,16 +45,6 @@
   }
 }
 @media (max-width: 767px) {
-  .primary-header .left-side .ls-sm-title {
-    font-size: 12pt;
-    line-height: 12pt;
-  }
-  .primary-header .left-side .ls-bg-title {
-    font-size: 35pt;
-    line-height: 35pt;
-  }
-}
-@media (max-width: 479px) {
   .primary-header .left-side {
     padding-top: 4px;
     padding-left: 10px;
@@ -105,12 +95,6 @@
   }
 }
 @media (max-width: 767px) {
-  .primary-header .right-side .rs-sm-title {
-    font-size: 15pt;
-    line-height: 15pt;
-  }
-}
-@media (max-width: 479px) {
   .primary-header .right-side {
     padding: 0 10px 0 0;
   }

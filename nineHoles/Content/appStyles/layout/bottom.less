@@ -32,8 +32,14 @@
 			color: @dark-gray;
 			text-align: center;
 			position: relative;
+
+			&:active {
+				background-color: @salad-green;
+			}
+
+			/* xs */
 			/* XS Portrait */
-			@media (max-width: 479px) {
+			@media (max-width: 767px) {
 				@nav-tem-xsP-diam: 60px;
 				margin-left: 1px;
 				width: @nav-tem-xsP-diam;
@@ -44,14 +50,20 @@
 
 			&.one-word {
 				padding-top: 23px;
+				/* xs */
 				/* XS Portrait */
-				@media (max-width: 479px) {
+				@media (max-width: 767px) {
 					padding-top: 19px;
 				}
 			}
 
 			&.two-words {
 				padding-top: 12px;
+				/* xs */
+				/* XS Portrait */
+				@media (max-width: 767px) {
+					padding-top: 10px;
+				}
 			}
 
 			&:after {
