@@ -21,7 +21,10 @@ namespace nineHoles
 				"~/Scripts/libs/angular-router/angular-ui-router.js",
 
 				"~/Scripts/libs/jquery/jquery-{version}.js",
-				"~/Scripts/libs/bootstrap/bootstrap.min.js"
+				"~/Scripts/libs/bootstrap/bootstrap.min.js",
+
+				"~/Scripts/libs/lodash/lodash.min.js",
+				"~/Scripts/libs/angular-google-maps/angular-google-maps.min.js"
 				));
 
 			bundles.Add(new StyleBundle("~/Content/css").Include(
@@ -36,6 +39,10 @@ namespace nineHoles
 				/* Main */
 				"~/Scripts/app/main/main.module.js",
 				"~/Scripts/app/main/main.controller.js",
+
+				/* Places */
+				"~/Scripts/app/places/places.module.js",
+				"~/Scripts/app/places/places.controller.js",
 
 				"~/Scripts/app/app.js",
 				"~/Scripts/app/app.layout.controller.js"));

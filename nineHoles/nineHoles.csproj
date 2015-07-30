@@ -277,6 +277,9 @@
     <None Include="Scripts\libs\jquery\jquery-1.9.0.intellisense.js" />
     <Content Include="Scripts\app\main\main.controller.js" />
     <Content Include="Scripts\app\main\main.module.js" />
+    <Content Include="Scripts\app\places\places.controller.js" />
+    <Content Include="Scripts\app\places\places.module.js" />
+    <Content Include="Scripts\libs\angular-google-maps\angular-google-maps.min.js" />
     <Content Include="Scripts\libs\bootstrap\bootstrap.js" />
     <Content Include="Scripts\libs\bootstrap\bootstrap.min.js" />
     <Content Include="Scripts\libs\jquery\jquery-1.9.0.js" />
@@ -1055,6 +1058,7 @@
     <Content Include="Scripts\libs\angular\i18n\angular-locale_zh.js" />
     <Content Include="Scripts\libs\angular\i18n\angular-locale_zu-za.js" />
     <Content Include="Scripts\libs\angular\i18n\angular-locale_zu.js" />
+    <Content Include="Scripts\libs\lodash\lodash.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -6,8 +6,10 @@
 	angular
 		.module('nineHoles', [
 			'ui.router',
+			'uiGmapgoogle-maps',
 
-			'main'
+			'main',
+			'places'
 		])
 
 		.config([
@@ -32,7 +34,8 @@
 
 					.state('places', {
 						url: '/places',
-						templateUrl: partialsPath + 'main/places'
+						templateUrl: partialsPath + 'main/places',
+						controller: 'PlacesController as placesCtrl'
 					})
 
 					.state('services', {

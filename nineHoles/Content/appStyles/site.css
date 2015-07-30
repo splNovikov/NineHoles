@@ -435,4 +435,7 @@ body {
   color: #333333;
   overflow-y: auto;
 }
+.places .angular-google-map-container {
+  height: 400px;
+}
 /*# sourceMappingURL=site.css.map */
