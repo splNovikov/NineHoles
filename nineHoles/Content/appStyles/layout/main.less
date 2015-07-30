@@ -7,15 +7,38 @@
 	bottom: @main-margin-bottom;
 	left: 0;
 	right: 0;
-
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center;
 
-	.main-view{
+	.main-view {
 		height: 100%;
+		position: relative;
+		/* extra */
+		@media (min-width: 1400px) {
+			padding: 0 80px;
+		}
+		/* lg */
+		@media (min-width: 1200px) and (max-width: 1399px) {
+			padding: 0 80px;
+		}
+		/* md */
+		@media (min-width: 992px) and (max-width: 1199px) {
+			padding: 0 80px;
+		}
+		/* sm */
+		@media (min-width: 768px) and (max-width: 991px) {
+			padding: 0 40px;
+		}
+		/* xs */
+		@media (max-width: 767px) {
+			padding: 0 20px;
+		}
+		/* XS Portrait */
+		@media (max-width: 479px) {
+			padding: 0 20px;
+		}
 	}
-
 	/* extra */
 	@media (min-width: 1400px) {
 		background-image: url('/Content/images/app/bg-big.jpg');

@@ -275,6 +275,43 @@ body {
 }
 .main .main-view {
   height: 100%;
+  position: relative;
+  /* extra */
+  /* lg */
+  /* md */
+  /* sm */
+  /* xs */
+  /* XS Portrait */
+}
+@media (min-width: 1400px) {
+  .main .main-view {
+    padding: 0 80px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .main .main-view {
+    padding: 0 80px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main .main-view {
+    padding: 0 80px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .main .main-view {
+    padding: 0 40px;
+  }
+}
+@media (max-width: 767px) {
+  .main .main-view {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 479px) {
+  .main .main-view {
+    padding: 0 20px;
+  }
 }
 @media (min-width: 1400px) {
   .main {
@@ -390,5 +427,12 @@ body {
   .start-page .block-content .text-content .item2 {
     font-size: 14pt;
   }
+}
+.common-body {
+  background-color: rgba(255, 255, 255, 0.75);
+  height: 100%;
+  padding: 20px;
+  color: #333333;
+  overflow-y: auto;
 }
 /*# sourceMappingURL=site.css.map */
