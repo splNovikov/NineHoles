@@ -1,0 +1,41 @@
+﻿@import "../basics/colors";
+
+.services {
+	.table-bordered td {
+		border-color: @dark-gray;
+		padding: 0 10px;
+	}
+
+	.devices {
+		& > div {
+			display: inline-block;
+			width: 50%;
+			vertical-align: top;
+		}
+
+		& > div:not(:first-child) {
+			margin-left: -4px;
+			text-align: center;
+		}
+
+		img {
+			max-width: 100%;
+		}
+	}
+
+	.separate-cells {
+		& > div {
+			display: inline-block;
+			width: 50%;
+			vertical-align: top;
+		}
+
+		& > div:not(:first-child) {
+			margin-left: -4px;
+		}
+
+		img {
+			max-width: 100%;
+		}
+	}
+}

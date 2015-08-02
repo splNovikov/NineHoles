@@ -1,0 +1,28 @@
+﻿.services .table-bordered td {
+  border-color: #333333;
+  padding: 0 10px;
+}
+.services .devices > div {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+.services .devices > div:not(:first-child) {
+  margin-left: -4px;
+  text-align: center;
+}
+.services .devices img {
+  max-width: 100%;
+}
+.services .separate-cells > div {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+.services .separate-cells > div:not(:first-child) {
+  margin-left: -4px;
+}
+.services .separate-cells img {
+  max-width: 100%;
+}
+/*# sourceMappingURL=services.css.map */

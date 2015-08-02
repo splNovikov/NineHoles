@@ -211,6 +211,12 @@
     <Content Include="Content\appStyles\places\places.min.css">
       <DependentUpon>places.css</DependentUpon>
     </Content>
+    <Content Include="Content\appStyles\services\services.css">
+      <DependentUpon>services.less</DependentUpon>
+    </Content>
+    <Content Include="Content\appStyles\services\services.min.css">
+      <DependentUpon>services.css</DependentUpon>
+    </Content>
     <Content Include="Content\appStyles\site.css">
       <DependentUpon>site.less</DependentUpon>
     </Content>
@@ -221,6 +227,10 @@
     <Content Include="Content\images\app\bg-md.jpg" />
     <Content Include="Content\images\app\bg-sm.jpg" />
     <Content Include="Content\images\app\bg-xs.jpg" />
+    <Content Include="Content\images\services\01.jpg" />
+    <Content Include="Content\images\services\01.png" />
+    <Content Include="Content\images\services\02.jpg" />
+    <Content Include="Content\images\services\03.jpg" />
     <Content Include="Content\libs\bootstrap\bootstrap-theme.css" />
     <Content Include="Content\libs\bootstrap\bootstrap-theme.min.css" />
     <Content Include="Content\libs\bootstrap\bootstrap.css" />
@@ -273,6 +283,10 @@
     <Content Include="Content\appStyles\layout\common-styles.less" />
     <Content Include="Content\appStyles\layout\common-styles.css.map">
       <DependentUpon>common-styles.css</DependentUpon>
+    </Content>
+    <Content Include="Content\appStyles\services\services.less" />
+    <Content Include="Content\appStyles\services\services.css.map">
+      <DependentUpon>services.css</DependentUpon>
     </Content>
     <None Include="Scripts\libs\jquery\jquery-1.9.0.intellisense.js" />
     <Content Include="Scripts\app\main\main.controller.js" />
