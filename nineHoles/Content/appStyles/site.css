@@ -205,7 +205,8 @@ body {
   /* xs */
   /* XS Portrait */
 }
-.primary-bottom .nav-panel .nav-item:active {
+.primary-bottom .nav-panel .nav-item:active,
+.primary-bottom .nav-panel .nav-item.nav-item-active {
   background-color: #c5fc3b;
 }
 @media (max-width: 767px) {
@@ -442,6 +443,9 @@ body {
   border-color: #333333;
   padding: 0 10px;
 }
+.services .text-padding {
+  padding: 0 20px;
+}
 .services .devices > div {
   display: inline-block;
   width: 50%;
@@ -454,6 +458,10 @@ body {
 .services .devices img {
   max-width: 100%;
 }
+.services .separate-cells {
+  /* xs */
+  /* XS Portrait */
+}
 .services .separate-cells > div {
   display: inline-block;
   width: 50%;
@@ -464,5 +472,17 @@ body {
 }
 .services .separate-cells img {
   max-width: 100%;
+}
+@media (max-width: 767px) {
+  .services .separate-cells > div.for-small-size {
+    display: block;
+    width: auto;
+  }
+}
+@media (max-width: 479px) {
+  .services .separate-cells > div.for-small-size {
+    display: block;
+    width: auto;
+  }
 }
 /*# sourceMappingURL=site.css.map */

@@ -6,6 +6,10 @@
 		padding: 0 10px;
 	}
 
+	.text-padding {
+		padding: 0 20px;
+	}
+
 	.devices {
 		& > div {
 			display: inline-block;
@@ -36,6 +40,21 @@
 
 		img {
 			max-width: 100%;
+		}
+
+		/* xs */
+		@media (max-width: 767px) {
+			& > div.for-small-size {
+				display: block;
+				width: auto;
+			}
+		}
+		/* XS Portrait */
+		@media (max-width: 479px) {
+			& > div.for-small-size {
+				display: block;
+				width: auto;
+			}
 		}
 	}
 }

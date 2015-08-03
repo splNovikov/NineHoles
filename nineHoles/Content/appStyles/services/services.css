@@ -2,6 +2,9 @@
   border-color: #333333;
   padding: 0 10px;
 }
+.services .text-padding {
+  padding: 0 20px;
+}
 .services .devices > div {
   display: inline-block;
   width: 50%;
@@ -14,6 +17,10 @@
 .services .devices img {
   max-width: 100%;
 }
+.services .separate-cells {
+  /* xs */
+  /* XS Portrait */
+}
 .services .separate-cells > div {
   display: inline-block;
   width: 50%;
@@ -24,5 +31,17 @@
 }
 .services .separate-cells img {
   max-width: 100%;
+}
+@media (max-width: 767px) {
+  .services .separate-cells > div.for-small-size {
+    display: block;
+    width: auto;
+  }
+}
+@media (max-width: 479px) {
+  .services .separate-cells > div.for-small-size {
+    display: block;
+    width: auto;
+  }
 }
 /*# sourceMappingURL=services.css.map */

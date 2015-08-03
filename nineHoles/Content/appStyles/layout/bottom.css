@@ -37,7 +37,8 @@
   /* xs */
   /* XS Portrait */
 }
-.primary-bottom .nav-panel .nav-item:active {
+.primary-bottom .nav-panel .nav-item:active,
+.primary-bottom .nav-panel .nav-item.nav-item-active {
   background-color: #c5fc3b;
 }
 @media (max-width: 767px) {
