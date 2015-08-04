@@ -7,6 +7,7 @@
 		.module('nineHoles', [
 			'ui.router',
 			'uiGmapgoogle-maps',
+			'angular-carousel',
 
 			'main',
 			'places'

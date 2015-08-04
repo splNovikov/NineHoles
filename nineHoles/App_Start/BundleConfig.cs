@@ -19,6 +19,9 @@ namespace nineHoles
 			bundles.Add(new JsBundle("~/bundles/libs").Include(
 				"~/Scripts/libs/angular/angular.js",
 				"~/Scripts/libs/angular-router/angular-ui-router.js",
+				"~/Scripts/libs/angular/angular-touch.js",
+				"~/Scripts/libs/angular-mobile/angular-mobile.js",
+				"~/Scripts/libs/angular-carusel/angular-carousel.js",
 
 				"~/Scripts/libs/jquery/jquery-{version}.js",
 				"~/Scripts/libs/bootstrap/bootstrap.min.js",
@@ -28,7 +31,8 @@ namespace nineHoles
 				));
 
 			bundles.Add(new StyleBundle("~/Content/css").Include(
-				"~/Content/libs/bootstrap/bootstrap.css"
+				"~/Content/libs/bootstrap/bootstrap.css",
+				"~/Content/libs/angular-carusel/angular-carousel.css"
 				));
 		}
 

@@ -163,6 +163,12 @@
     <Content Include="Content\appStyles\basics\colors.min.css">
       <DependentUpon>colors.css</DependentUpon>
     </Content>
+    <Content Include="Content\appStyles\gallery\gallery.css">
+      <DependentUpon>gallery.less</DependentUpon>
+    </Content>
+    <Content Include="Content\appStyles\gallery\gallery.min.css">
+      <DependentUpon>gallery.css</DependentUpon>
+    </Content>
     <Content Include="Content\appStyles\layout\body.css">
       <DependentUpon>body.less</DependentUpon>
     </Content>
@@ -227,10 +233,29 @@
     <Content Include="Content\images\app\bg-md.jpg" />
     <Content Include="Content\images\app\bg-sm.jpg" />
     <Content Include="Content\images\app\bg-xs.jpg" />
+    <Content Include="Content\images\gallery\01.jpg" />
+    <Content Include="Content\images\gallery\02.jpg" />
+    <Content Include="Content\images\gallery\03.jpg" />
+    <Content Include="Content\images\gallery\04.jpg" />
+    <Content Include="Content\images\gallery\05.jpg" />
+    <Content Include="Content\images\gallery\06.jpg" />
+    <Content Include="Content\images\gallery\07.jpg" />
+    <Content Include="Content\images\gallery\08.jpg" />
+    <Content Include="Content\images\gallery\09.jpg" />
+    <Content Include="Content\images\gallery\10.jpg" />
+    <Content Include="Content\images\gallery\11.jpg" />
+    <Content Include="Content\images\gallery\12.jpg" />
+    <Content Include="Content\images\gallery\13.jpg" />
+    <Content Include="Content\images\gallery\14.jpg" />
+    <Content Include="Content\images\gallery\15.jpg" />
+    <Content Include="Content\images\gallery\16.jpg" />
+    <Content Include="Content\images\gallery\17.jpg" />
     <Content Include="Content\images\services\01.jpg" />
     <Content Include="Content\images\services\01.png" />
     <Content Include="Content\images\services\02.jpg" />
     <Content Include="Content\images\services\03.jpg" />
+    <Content Include="Content\libs\angular-carusel\angular-carousel.css" />
+    <Content Include="Content\libs\angular-carusel\angular-carousel.min.css" />
     <Content Include="Content\libs\bootstrap\bootstrap-theme.css" />
     <Content Include="Content\libs\bootstrap\bootstrap-theme.min.css" />
     <Content Include="Content\libs\bootstrap\bootstrap.css" />
@@ -288,12 +313,20 @@
     <Content Include="Content\appStyles\services\services.css.map">
       <DependentUpon>services.css</DependentUpon>
     </Content>
+    <Content Include="Content\libs\angular-carusel\angular-carousel.css.map" />
+    <Content Include="Content\appStyles\gallery\gallery.less" />
+    <Content Include="Content\appStyles\gallery\gallery.css.map">
+      <DependentUpon>gallery.css</DependentUpon>
+    </Content>
     <None Include="Scripts\libs\jquery\jquery-1.9.0.intellisense.js" />
     <Content Include="Scripts\app\main\main.controller.js" />
     <Content Include="Scripts\app\main\main.module.js" />
     <Content Include="Scripts\app\places\places.controller.js" />
     <Content Include="Scripts\app\places\places.module.js" />
+    <Content Include="Scripts\libs\angular-carusel\angular-carousel.js" />
+    <Content Include="Scripts\libs\angular-carusel\angular-carousel.min.js" />
     <Content Include="Scripts\libs\angular-google-maps\angular-google-maps.min.js" />
+    <Content Include="Scripts\libs\angular-mobile\angular-mobile.js" />
     <Content Include="Scripts\libs\bootstrap\bootstrap.js" />
     <Content Include="Scripts\libs\bootstrap\bootstrap.min.js" />
     <Content Include="Scripts\libs\jquery\jquery-1.9.0.js" />
