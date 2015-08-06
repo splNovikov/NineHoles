@@ -163,6 +163,12 @@
     <Content Include="Content\appStyles\basics\colors.min.css">
       <DependentUpon>colors.css</DependentUpon>
     </Content>
+    <Content Include="Content\appStyles\discounts\discounts.css">
+      <DependentUpon>discounts.less</DependentUpon>
+    </Content>
+    <Content Include="Content\appStyles\discounts\discounts.min.css">
+      <DependentUpon>discounts.css</DependentUpon>
+    </Content>
     <Content Include="Content\appStyles\gallery\gallery.css">
       <DependentUpon>gallery.less</DependentUpon>
     </Content>
@@ -233,6 +239,7 @@
     <Content Include="Content\images\app\bg-md.jpg" />
     <Content Include="Content\images\app\bg-sm.jpg" />
     <Content Include="Content\images\app\bg-xs.jpg" />
+    <Content Include="Content\images\discounts\discounts_01.jpg" />
     <Content Include="Content\images\gallery\01.jpg" />
     <Content Include="Content\images\gallery\02.jpg" />
     <Content Include="Content\images\gallery\03.jpg" />
@@ -317,6 +324,10 @@
     <Content Include="Content\appStyles\gallery\gallery.less" />
     <Content Include="Content\appStyles\gallery\gallery.css.map">
       <DependentUpon>gallery.css</DependentUpon>
+    </Content>
+    <Content Include="Content\appStyles\discounts\discounts.less" />
+    <Content Include="Content\appStyles\discounts\discounts.css.map">
+      <DependentUpon>discounts.css</DependentUpon>
     </Content>
     <None Include="Scripts\libs\jquery\jquery-1.9.0.intellisense.js" />
     <Content Include="Scripts\app\main\main.controller.js" />
