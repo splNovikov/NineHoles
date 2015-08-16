@@ -33,6 +33,11 @@
 						controller: 'MainController as mainCtrl'
 					})
 
+					.state('minigolf', {
+						url: '/minigolf',
+						templateUrl: partialsPath + 'main/minigolf'
+					})
+
 					.state('places', {
 						url: '/places',
 						templateUrl: partialsPath + 'main/places',

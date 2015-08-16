@@ -9,6 +9,11 @@ namespace nineHoles.Controllers
 			return PartialView("~/Views/Main/_Index.cshtml");
 		}
 
+		public ActionResult Minigolf()
+		{
+			return PartialView("~/Views/Main/_Minigolf.cshtml");
+		}
+
 		public ActionResult Places()
 		{
 			return PartialView("~/Views/Main/_Places.cshtml");

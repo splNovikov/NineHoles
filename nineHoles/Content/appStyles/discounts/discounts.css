@@ -1,4 +1,12 @@
-﻿.discounts .for-image {
+﻿.discounts .social-icons {
+  padding-top: 5px;
+}
+.discounts .social-icons img {
+  cursor: pointer;
+  display: inline-block;
+  max-width: 40px;
+}
+.discounts .for-image {
   text-align: center;
   margin-top: 20px;
 }

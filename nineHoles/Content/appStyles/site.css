@@ -93,6 +93,7 @@ body .nautilus {
 .primary-header .right-side .rs-sm-title,
 .primary-header .right-side .rs-bg-title {
   display: block;
+  cursor: pointer;
 }
 .primary-header .right-side .rs-sm-title {
   font-size: 20pt;
@@ -436,8 +437,18 @@ body {
   color: #333333;
   overflow-y: auto;
 }
-.places .angular-google-map-container {
-  height: 400px;
+.places .for-map-container {
+  position: relative;
+}
+.places .for-map-container .angular-google-map {
+  margin: 0 auto;
+  max-width: 800px;
+}
+.places .for-map-container .angular-google-map .angular-google-map-container {
+  height: 300px;
+}
+.places .schema {
+  max-width: 100%;
 }
 .services .table-bordered td {
   border-color: #333333;
@@ -494,6 +505,14 @@ body {
 }
 .gallery .image-carusel-custom li img {
   max-height: 100%;
+}
+.discounts .social-icons {
+  padding-top: 5px;
+}
+.discounts .social-icons img {
+  cursor: pointer;
+  display: inline-block;
+  max-width: 40px;
 }
 .discounts .for-image {
   text-align: center;

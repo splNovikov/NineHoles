@@ -240,6 +240,8 @@
     <Content Include="Content\images\app\bg-sm.jpg" />
     <Content Include="Content\images\app\bg-xs.jpg" />
     <Content Include="Content\images\discounts\discounts_01.jpg" />
+    <Content Include="Content\images\discounts\inst.png" />
+    <Content Include="Content\images\discounts\vk.png" />
     <Content Include="Content\images\gallery\01.jpg" />
     <Content Include="Content\images\gallery\02.jpg" />
     <Content Include="Content\images\gallery\03.jpg" />
@@ -257,6 +259,7 @@
     <Content Include="Content\images\gallery\15.jpg" />
     <Content Include="Content\images\gallery\16.jpg" />
     <Content Include="Content\images\gallery\17.jpg" />
+    <Content Include="Content\images\places\schema.jpg" />
     <Content Include="Content\images\services\01.jpg" />
     <Content Include="Content\images\services\01.png" />
     <Content Include="Content\images\services\02.jpg" />
@@ -1132,6 +1135,7 @@
     <Content Include="Views\Main\_Services.cshtml" />
     <Content Include="Views\Main\_Gallery.cshtml" />
     <Content Include="Views\Main\_Discounts.cshtml" />
+    <Content Include="Views\Main\_Minigolf.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

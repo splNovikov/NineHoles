@@ -1,4 +1,14 @@
-﻿.places .angular-google-map-container {
-  height: 400px;
+﻿.places .for-map-container {
+  position: relative;
+}
+.places .for-map-container .angular-google-map {
+  margin: 0 auto;
+  max-width: 800px;
+}
+.places .for-map-container .angular-google-map .angular-google-map-container {
+  height: 300px;
+}
+.places .schema {
+  max-width: 100%;
 }
 /*# sourceMappingURL=places.css.map */

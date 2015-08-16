@@ -79,6 +79,7 @@
 .primary-header .right-side .rs-sm-title,
 .primary-header .right-side .rs-bg-title {
   display: block;
+  cursor: pointer;
 }
 .primary-header .right-side .rs-sm-title {
   font-size: 20pt;
