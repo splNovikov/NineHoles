@@ -48,6 +48,10 @@ namespace nineHoles
 				"~/Scripts/app/places/places.module.js",
 				"~/Scripts/app/places/places.controller.js",
 
+				/* Gallery */
+				"~/Scripts/app/gallery/gallery.module.js",
+				"~/Scripts/app/gallery/gallery.controller.js",
+
 				"~/Scripts/app/app.js",
 				"~/Scripts/app/app.layout.controller.js"));
 

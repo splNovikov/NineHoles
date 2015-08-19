@@ -10,7 +10,8 @@
 			'angular-carousel',
 
 			'main',
-			'places'
+			'places',
+			'gallery'
 		])
 
 		.config([
@@ -51,7 +52,8 @@
 
 					.state('gallery', {
 						url: '/gallery',
-						templateUrl: partialsPath + 'main/gallery'
+						templateUrl: partialsPath + 'main/gallery',
+						controller: 'GalleryController as galleryCtrl'
 					})
 
 					.state('discounts', {
