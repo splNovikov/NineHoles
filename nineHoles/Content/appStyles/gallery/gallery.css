@@ -6,13 +6,28 @@
   text-align: center;
 }
 .gallery .image-carusel-custom li .helper {
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
+  padding-top: 100%;
 }
-.gallery .image-carusel-custom li img {
+.gallery .image-carusel-custom li .img-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  /* Align center inline elements */
+  font: 0/0 a;
+}
+.gallery .image-carusel-custom li .img-container img {
   vertical-align: middle;
+  display: inline-block;
   max-height: 100%;
   max-width: 100%;
+}
+.gallery .image-carusel-custom li .img-container:before {
+  content: ' ';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
 }
 /*# sourceMappingURL=gallery.css.map */
