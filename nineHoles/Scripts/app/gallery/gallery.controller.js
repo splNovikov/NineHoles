@@ -12,16 +12,19 @@
 		$scope,
 		$window) {
 
-		var _path = 'Content/images/gallery/';
+		var defaultPath = 'Content/images/gallery/';
 
 		$scope.$watch(function () {
 			return $window.innerWidth;
 		}, function (value) {
+			var path;
 			if (value < 450) {
-				_path = 'Content/images/gallery/mobile/';
+				path = 'Content/images/gallery/mobile/';
+			} else {
+				path = defaultPath;
 			}
 
-			setImagePaths(_path);
+			setImagePaths(path);
 		});
 
 		function setImagePaths(path) {
