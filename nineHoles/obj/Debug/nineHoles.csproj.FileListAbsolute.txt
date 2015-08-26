@@ -35,4 +35,3 @@ c:\users\novikov\documents\visual studio 2013\Projects\nineHoles\nineHoles\bin\r
 c:\users\novikov\documents\visual studio 2013\Projects\nineHoles\nineHoles\bin\ru-ru\MsieJavaScriptEngine.resources.dll
 c:\users\novikov\documents\visual studio 2013\Projects\nineHoles\nineHoles\obj\Debug\nineHoles.dll
 c:\users\novikov\documents\visual studio 2013\Projects\nineHoles\nineHoles\obj\Debug\nineHoles.pdb
-C:\Users\Novikov\documents\visual studio 2013\Projects\nineHoles\nineHoles\obj\Debug\nineHoles.csprojResolveAssemblyReference.cache

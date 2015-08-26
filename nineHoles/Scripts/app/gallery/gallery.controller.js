@@ -5,14 +5,27 @@
 		.module('gallery')
 		.controller('GalleryController', [
 			'$scope',
+			'$window',
 			GalleryCtrl])
 
 	function GalleryCtrl(
-		$scope) {
+		$scope,
+		$window) {
 
-		var path = 'Content/images/gallery/';
+		var _path = 'Content/images/gallery/';
 
-		$scope.imgPaths = [
+		$scope.$watch(function () {
+			return $window.innerWidth;
+		}, function (value) {
+			if (value < 450) {
+				_path = 'Content/images/gallery/mobile/';
+			}
+
+			setImagePaths(_path);
+		});
+
+		function setImagePaths(path) {
+			$scope.imgPaths = [
 			path + '01.jpg',
 			path + '02.jpg',
 			path + '03.jpg',
@@ -30,6 +43,8 @@
 			path + '15.jpg',
 			path + '16.jpg',
 			path + '17.jpg'
-		]
+			]
+		}
+
 	}
 })();

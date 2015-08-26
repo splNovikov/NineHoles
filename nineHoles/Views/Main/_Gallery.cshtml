@@ -1,6 +1,7 @@
 ﻿<div class="gallery common-body">
 
-	<ul rn-carousel
+	<ul ng-if="imgPaths && imgPaths.length > 0"
+		rn-carousel
 		rn-carousel-controls
 		rn-carousel-auto-slide
 		rn-carousel-transition="slide"
